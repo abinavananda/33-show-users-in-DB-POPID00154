@@ -1,0 +1,39 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-ms-filter",
+          "-moz-backface-visibility",
+          "-webkit-tap-highlight-color"
+        ]
+      }
+    ],
+    "create-element-svg": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "meta-viewport": "off",
+    "meta-charset-utf-8": "off",
+    "no-inline-styles": "off",
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off"
+      }
+    ]
+  }
+}
